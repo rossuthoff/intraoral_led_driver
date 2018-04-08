@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 280)
@@ -64,7 +64,7 @@
     (aux_axis_origin 113.5 148.5)
     (visible_elements 7FFF5B79)
     (pcbplotparams
-      (layerselection 0x00080_00000000)
+      (layerselection 0x010e8_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -83,7 +83,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 3)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -4114,7 +4114,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 113.5 115.25) (end 113.5 148.5) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "LED Ctrl 2.1\n" (at 115.25 139.25 90) (layer F.SilkS)
+  (gr_text "LED Ctrl 1.0" (at 115.25 139.25 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left))
   )
 
