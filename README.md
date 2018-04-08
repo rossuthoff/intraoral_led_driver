@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/128584896.svg)](https://zenodo.org/badge/latestdoi/128584896)
+
 # intraoral led driver
 Switching boost LED driver based on the Linear Technology [LT3478-1](http://www.analog.com/en/products/power-management/led-driver-ic/buck-boost-led-drivers/lt3478.html) chip. This LED driver is used for the oral cancer screening device described in [1]. 
 
