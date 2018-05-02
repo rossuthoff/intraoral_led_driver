@@ -1,4 +1,4 @@
-update=4/7/2018 7:19:24 PM
+update=5/1/2018 11:36:58 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,8 +72,7 @@ LibName32=mechanical
 LibName33=references
 LibName34=sensors
 LibName35=switches
-LibName36=fiducial
-LibName37=C:/uthoff/kicad_public/Library/custom_library
-LibName38=C:/uthoff/kicad_public/Library/fiducial
+LibName36=C:/uthoff/kicad_footprints/fiducial
+LibName37=C:/uthoff/kicad_footprints/custom_library
 [general]
 version=1
