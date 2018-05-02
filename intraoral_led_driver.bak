@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:intraoral_led_driver-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +35,8 @@ LIBS:mechanical
 LIBS:references
 LIBS:sensors
 LIBS:switches
-LIBS:fiducial
 LIBS:custom_library
-LIBS:intraoral_led_driver-cache
+LIBS:fiducial
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -623,7 +623,7 @@ Connection ~ 5900 6360
 Wire Wire Line
 	6725 5310 6325 5310
 Wire Wire Line
-	6325 4190 6325 7445
+	6325 5310 6325 7445
 Wire Wire Line
 	7775 5435 7775 6045
 Wire Wire Line
@@ -847,7 +847,7 @@ V_v+
 Text Label 6425 7240 3    60   ~ 0
 V_w+
 $Comp
-L CONN_01X04 J3
+L Conn_01x04 J3
 U 1 1 59360C25
 P 13250 5305
 F 0 "J3" H 13250 5555 50  0000 C CNN
@@ -858,7 +858,7 @@ F 3 "" H 13250 5305 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_01X04 J1
+L Conn_01x04 J1
 U 1 1 59362528
 P 6475 7645
 F 0 "J1" H 6475 7895 50  0000 C CNN
@@ -869,7 +869,7 @@ F 3 "" H 6475 7645 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CONN_01X03 J2
+L Conn_01x03 J2
 U 1 1 5936182A
 P 9755 8155
 F 0 "J2" H 9755 8355 50  0000 C CNN
@@ -884,7 +884,7 @@ Wire Wire Line
 Wire Wire Line
 	9755 7835 9755 7955
 $Comp
-L CONN_01X02 J5
+L Conn_01x02 J5
 U 1 1 5936502E
 P 3920 3545
 F 0 "J5" H 3920 3695 50  0000 C CNN
@@ -895,7 +895,7 @@ F 3 "" H 3920 3545 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 J4
+L Conn_01x02 J4
 U 1 1 593650F2
 P 2430 4985
 F 0 "J4" H 2430 5135 50  0000 C CNN
